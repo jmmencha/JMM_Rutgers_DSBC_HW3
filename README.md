@@ -1,7 +1,12 @@
-# JMM_Rutgers_DSBC_HW3
-Jacob Menchak - Rutgers Data Science Boot Camp (DSBC) - Homework 3
+# Python Homework: Py Me Up, Charlie!
+![python_scripting_profit_loss_vote_poll](/Images/python_scripting_profit_loss_vote_poll.png)
 
-# Python Homework - Py Me Up, Charlie
+### PyBank - Financial Budget - Corporate Profit & Loss Records Data Analysis:<br/>
+Analyzed 80+ months of corporate profit & loss data records using Python Scripting to calculate the: total dataset months, net total profits & losses, average change in profits & losses over time, greatest profit increase, and greatest loss increase.
+
+### PyPoll - County Election - Candidate & Voter Poll Data Analysis:<br/>
+Analyzed 3.5M+ candidate & voter poll data records using Python Scripting to calculate the: total dataset votes, list of voted candidates, percent votes candidates won, total votes candidates won, and popular vote election winner.
+- - -
 
 ## Background
 
@@ -24,9 +29,9 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
 ## PyBank
 
-![Revenue](Images/revenue-per-lead.png)
+![revenue_per_lead](Images/revenue_per_lead.png)
 
-* In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will give a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
+* In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will be given a set of financial data called [budget_data.csv](Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
 
 * Your task is to create a Python script that analyzes the records to calculate each of the following:
 
@@ -38,7 +43,7 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
   * The greatest increase in profits (date and amount) over the entire period
 
-  * The greatest decrease in losses (date and amount) over the entire period
+  * The greatest increase in losses (date and amount) over the entire period
 
 * As an example, your analysis should look similar to the one below:
 
@@ -56,11 +61,13 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
 ## PyPoll
 
-![Vote-Counting](Images/Vote_counting.png)
+![vote_counting](Images/vote_counting.png)
 
 * In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
-* You will be give a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
+* You will be given a set of poll data called [election_data.zip](Resources/election_data.zip).<br/>
+**Please Note:** *the "Resources" folder contains a zip file, which, when unzipped, extracts the "election_data.csv" MS Excel data file.*<br/>
+The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
 
   * The total number of votes cast
 
@@ -106,6 +113,8 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
   * **Commit often**.
 
-## Copyright
+- - -
 
-Trilogy Education Services © 2019. All Rights Reserved.
+*JMM_Rutgers_DSBC_HW3*<br/>
+Jacob Menchak - Rutgers Data Science Boot Camp (DSBC) - Homework 3<br/>
+© 2019 Trilogy Education Services
