@@ -21,7 +21,7 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
 2. Clone the new repository to your computer.
 
-3. Inside your local git repository, create a directory for both of the  Python Challenges. Use folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
+3. Inside your local git repository, create a directory for both of the Python Challenges. Use folder names corresponding to the challenges: **PyBank** and **PyPoll**.
 
 4. Inside of each folder that you just created, add a new file called `main.py`. This will be the main script to run for each analysis.
 
@@ -52,7 +52,7 @@ Both of these challenges encompasses a real-world situation where your newfound 
   ----------------------------
   Total Months: 86
   Total: $38382578
-  Average  Change: $-2315.12
+  Average Change: $-2315.12
   Greatest Increase in Profits: Feb-2012 ($1926159)
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ```
